@@ -37,10 +37,8 @@ jobs:
         if: startsWith(github.ref, 'refs/heads/demo')
         uses: devops-infra/action-pull-request@v0.4.2
         env:
-          GITHUB_TOKEN: ${{ secrets.
-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 }}
+          GITHUB_TOKEN: ${{ secrets.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 }}
         with:
-            github_token: ${{ secrets.
-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 }}
+            github_token: ${{ secrets.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 }}
             title: Automatic pull request                           
             get_diff: true         
